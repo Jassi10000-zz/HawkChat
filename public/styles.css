@@ -19,7 +19,7 @@ body {
   max-width: 500px;
   width: 100%;
   border-radius: 10px;
-  box-shadow: 5px 10px 20px 5px #111;
+  box-shadow: 5px 10px 20px 5px #000; 
   overflow: hidden;
   border: 1px solid #0b2a5b;
   background: #810000;
