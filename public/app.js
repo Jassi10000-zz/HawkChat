@@ -6,12 +6,6 @@ const chatBox = document.querySelector('.chat-content')
 const displayMsg = document.querySelector('.message')
 
 let name;
-// do{
-//     name = prompt("What's ur name ? ")
-// }
-// while(!name)
-// document.querySelector('#name').textContent = name;
-// msgText.focus();
 
 var userTwoName;
 
