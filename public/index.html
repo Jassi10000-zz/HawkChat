@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HawkChat</title>
+        <link rel="icon" href="hawk3.png"  type="image/x-type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <body>
+       
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="logo">
+                    <img src="hawk3.png" style="width:55px;height:48px;" alt="hattt">
+                    <h3>HawkChat</h3>
+                </div>
+                <p id="name">Name</p>
+            </div>
+
+            <!-- *************************************************** -->
+            <div class="chat-section">
+                <div class="main-wrapper">
+                    <div class="chat-content">
+                        <div class="message">
+                            <div class="message-row other-message">
+                                <!-- <div class="message-title">
+                                    👨<span>User 01</span>
+                                </div>
+                                <div class="message-text">
+                                    hello
+                                </div>
+                                <div class="message-time">
+                                    April 20
+                                </div> -->
+                            
+                            
+                            </div>
+
+                            <div class="message-row my-message">
+                                <!-- <div class="message-title">
+                                    👲<span>User 02</span>
+                                </div>
+                                <div class="message-text">
+                                    ok
+                                </div>
+                                <div class="message-time">
+                                    April 20
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+<!-- ******************************************************************************************* -->
+                    <form class="msg-text">
+                        <input type="text" name="msg" id="msg" placeholder="Type your message" autocomplete="off">
+                        <button id="btn-send">
+                            <i class="fas fa-paper-plane"> Send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
