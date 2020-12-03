@@ -42,8 +42,6 @@ io.on('connection' , socket=>{
 
 const PORT = 3000
 
-// process.env is a J.S object
-
 http.listen(PORT , () => {
    console.log("Server listening at port" + PORT); 
 })
