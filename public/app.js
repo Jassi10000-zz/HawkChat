@@ -6,6 +6,7 @@ const chatBox = document.querySelector('.chat-content')
 const displayMsg = document.querySelector('.message')
 
 let name;
+
 var userTwoName;
 
 function getName(){

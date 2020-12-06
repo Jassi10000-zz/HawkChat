@@ -21,7 +21,7 @@
                 <p id="name">Name</p>
             </div>
 
-            <!-- *************************************************** -->
+            <!-- ******************************************Chat section *********************************** -->
             <div class="chat-section">
                 <div class="main-wrapper">
                     <div class="chat-content">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
 
-<!-- ******************************************************************************************* -->
+<!-- *****************************************Text-box for writing msgs**************************************************** -->
                     <form class="msg-text">
                         <input type="text" name="msg" id="msg" placeholder="Type your message" autocomplete="off">
                         <button id="btn-send">
@@ -64,7 +64,8 @@
                 </div>
             </div>
         </div>
-        <script src="/socket.io/socket.io.js"></script>
+<!--   *********** This script tag important for importing the socket.io       -->
+        <script src="/socket.io/socket.io.js"></script> 
         <script src="app.js" async defer></script>
     </body>
 </html>

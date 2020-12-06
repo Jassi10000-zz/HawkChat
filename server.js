@@ -5,7 +5,6 @@ const express = require('express');
 
 const path = require('path');
 
-
 const app = express();
 
 const http = require('http').createServer(app);
@@ -42,8 +41,6 @@ io.on('connection' , socket=>{
 
 
 const PORT = 3000
-
-// process.env is a J.S object
 
 http.listen(PORT , () => {
    console.log("Server listening at port" + PORT); 
