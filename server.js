@@ -21,7 +21,7 @@ io.on('connection' , socket=>{
 
    socket.on('sending name' , name=>{
 
-      if(users.length >= 2){
+      if(users.length < 2){
          console.log("Not allowed")
          return;
       }
