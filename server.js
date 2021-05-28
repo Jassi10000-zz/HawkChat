@@ -1,5 +1,5 @@
 const fs = require('fs');
-__dirname__= fs.realpathSync('.');
+__dirname= fs.realpathSync('.');
 
 const express = require('express');
 
@@ -11,7 +11,7 @@ const http = require('http').createServer(app);
 
 
 
-app.use(express.static(path.join(__dirname__, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
 
 let users = [];
 
